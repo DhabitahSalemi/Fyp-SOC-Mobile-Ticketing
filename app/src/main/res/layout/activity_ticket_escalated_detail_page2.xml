@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".TicketEscalatedDetailPage2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escalated Ticket Detail"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/blue_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous PIC:"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/previousPIC_detail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:drawablePadding="15dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manager Comments:"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/managerComments_detail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:drawablePadding="15dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit a report to the manager once issue is solved."
+        android:textColor="@color/light_grey"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/report_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Report Ticket"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:cornerRadius="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/light_grey"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/previousPage_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Previous Page"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"/>
+
+</LinearLayout>

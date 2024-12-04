@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Ticket Workflow"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="40dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Fill in the form to create ticket.\n\n2. Submit the ticket. Ticket will be sent to the Manager.\n\n3. Manager will assign the ticket to SOC Analyst."
+        android:textSize="16sp"
+        android:padding="25dp"
+        android:gravity="left"/>
+
+    <Button
+        android:id="@+id/create_ticket_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Ticket"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@color/blue_primary"
+        android:layout_margin="16dp"
+        android:gravity="center"/>
+
+</LinearLayout>

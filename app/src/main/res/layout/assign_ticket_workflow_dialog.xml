@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assign Ticket Workflow"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="40dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Select the Person In Charged (PIC) for the ticket.\n\n2. Ticket will be sent to the PIC to resolve issue.\n\n3. Once the issue resolved, PIC will submit a report back to the Manager."
+        android:textSize="16sp"
+        android:padding="25dp"
+        android:gravity="left"/>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@color/blue_primary"
+        android:layout_margin="16dp"
+        android:gravity="center"/>
+
+</LinearLayout>

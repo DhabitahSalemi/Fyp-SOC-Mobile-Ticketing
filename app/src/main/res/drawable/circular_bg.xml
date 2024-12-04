@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- You can change the color as per your requirement -->
+    <corners android:radius="1000dp"/> <!-- Half of your ImageView's size -->
+    <stroke android:color="#B1BCBE" android:width="2dp"/> <!-- Optional, if you want to give a border to your ImageView -->
+</shape>
